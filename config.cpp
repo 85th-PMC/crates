@@ -6,7 +6,8 @@ class CfgPatches
 		{
 		"85th_dummy_crate",
 		"85th_supply_crate",
-		"85th_firstaid_kit"
+		"85th_firstaid_kit",
+		"85th_demolitions_kit"
 		};
 		weapons[]={};
 		requiredVersion=0.1;
@@ -67,6 +68,61 @@ class CfgVehicles
 		scope=2;
 		displayName="FirstAid Kit [85th]";
 		model = "\A3\Structures_F_Heli\Items\Luggage\PlasticCase_01_medium_F.p3d";
+		class TransportMagazines{
+			class _xx_HandGrenade {
+				magazine = "HandGrenade";
+				count = 12;
+			};
+		};
+		class TransportWeapons{
+			class _xx_arifle_MX_F {
+				weapon = "arifle_MX_F";
+				count = 2;
+			};
+		};
+		class TransportItems{
+			class _xx_ACE_elasticBandage {
+				name = "ACE_elasticBandage";
+				count = 20;
+            };
+            class _xx_ACE_epinephrine {    
+                name = "ACE_epinephrine";
+				count = 10;
+            };
+            class _xx_ACE_morphine {
+                name = "ACE_morphine";
+				count = 10;
+            };
+            class _xx_ACE_packingBandage {
+                name = "ACE_packingBandage";
+				count = 20;
+            };
+            class _xx_ACE_tourniquet {
+                name = "ACE_tourniquet";
+				count = 8;
+            };
+            class _xx_ACE_salineIV {
+                name = "ACE_salineIV";
+				count = 8;
+            };
+            class _xx_ACE_salineIV {
+                name = "ACE_bodyBag";
+				count = 8;
+			};
+		};
+		class TransportBackpacks{
+			class _xx_B_Kitbag_mcamo {
+				backpack = "B_Kitbag_mcamo";
+				count = 2;
+			};
+		};
+	};
+};
+class 85th_demolitions_kit: 85th_dummy_crate
+	{
+		scope=2;
+		displayName="Demolitions Kit [85th]";
+		model = "\A3\Weapons_F\Ammoboxes\Proxy_UsBasicExplosives.p3d";
 		class TransportMagazines{
 			class _xx_HandGrenade {
 				magazine = "HandGrenade";
