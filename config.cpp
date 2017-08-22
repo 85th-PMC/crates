@@ -101,7 +101,7 @@ class CfgVehicles
 				name = "ACE_salineIV";
 				count = 8;
 			};
-			class _xx_ACE_salineIV {
+			class _xx_ACE_bodyBag {
 				name = "ACE_bodyBag";
 				count = 8;
 			};
