@@ -4,7 +4,8 @@ class CfgPatches
 	{
 		units[]=
 		{
-		"85th_supply_crate"
+		"85th_supply_crate",
+		"85th_firstaid_kit"
 		};
 		weapons[]={};
 		requiredVersion=0.1;
