@@ -74,7 +74,7 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"\crate\data\medicalCase_CO.paa"
+			"\data\medicalCase_CO.paa"
 		};
 		class TransportItems{
 			class _xx_ACE_elasticBandage {
