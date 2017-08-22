@@ -52,6 +52,35 @@ class CfgVehicles
 			};
 		};
 	};
+	class 85th_firstaid_kit: 85th_supply_crate
+	{
+		scope=2;
+		displayName="FirstAid Kit [85th]";
+		class TransportMagazines{
+			class _xx_HandGrenade {
+				magazine = "HandGrenade";
+				count = 12;
+			};
+		};
+		class TransportWeapons{
+			class _xx_arifle_MX_F {
+				weapon = "arifle_MX_F";
+				count = 2;
+			};
+		};
+		class TransportItems{
+			class _xx_FirstAidKit {
+				name = "FirstAidKit";
+				count = 10;
+			};
+		};
+		class TransportBackpacks{
+			class _xx_B_Kitbag_mcamo {
+				backpack = "B_Kitbag_mcamo";
+				count = 2;
+			};
+		};
+	};
 };
 class cfgMods
 {
