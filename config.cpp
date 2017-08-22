@@ -4,6 +4,7 @@ class CfgPatches
 	{
 		units[]=
 		{
+		"85th_dummy_crate",
 		"85th_supply_crate",
 		"85th_firstaid_kit"
 		};
@@ -19,15 +20,19 @@ class CfgPatches
 class CfgVehicles
 {
 	class B_supplyCrate_F;
-	class 85th_supply_crate: B_supplyCrate_F
+	class 85th_dummy_crate: B_supplyCrate_F
 	{
-		scope=2;
-		displayName="Supply Box [85th]";
+		scope=1;
 		maximumLoad=9999999999;
 		transportMaxWeapons=9999999999;
 		transportMaxMagazines=9999999999;
 		supplyRadius=-1;
 		memoryPointSupply="doplnovani";
+	};
+	class 85th_supply_crate: 85th_dummy_crate
+	{
+		scope=2;
+		displayName="Supply Box [85th]";
 		class TransportMagazines{
 			class _xx_HandGrenade {
 				magazine = "HandGrenade";
@@ -53,7 +58,7 @@ class CfgVehicles
 			};
 		};
 	};
-	class 85th_firstaid_kit: 85th_supply_crate
+	class 85th_firstaid_kit: 85th_dummy_crate
 	{
 		scope=2;
 		displayName="FirstAid Kit [85th]";
