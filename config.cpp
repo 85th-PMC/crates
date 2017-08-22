@@ -56,6 +56,7 @@ class CfgVehicles
 	{
 		scope=2;
 		displayName="FirstAid Kit [85th]";
+		model = "\A3\Structures_F_Heli\Items\Luggage\PlasticCase_01_medium_F.p3d";
 		class TransportMagazines{
 			class _xx_HandGrenade {
 				magazine = "HandGrenade";
