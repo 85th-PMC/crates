@@ -32,7 +32,6 @@ class CfgVehicles
 		class TransportWeapons{};
 		class TransportItems{};
 		class TransportBackpacks{};
-		};
 	};
 	class 85th_supply_crate: 85th_dummy_crate
 	{
