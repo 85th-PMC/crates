@@ -107,7 +107,6 @@ class CfgVehicles
 			};
 		};
 	};
-};
 	class 85th_demolitions_kit: 85th_dummy_crate
 	{
 		scope=2;
