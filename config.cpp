@@ -84,29 +84,29 @@ class CfgVehicles
 			class _xx_ACE_elasticBandage {
 				name = "ACE_elasticBandage";
 				count = 20;
-            };
-            class _xx_ACE_epinephrine {    
-                name = "ACE_epinephrine";
+			};
+			class _xx_ACE_epinephrine {    
+				name = "ACE_epinephrine";
 				count = 10;
-            };
-            class _xx_ACE_morphine {
-                name = "ACE_morphine";
+			};
+			class _xx_ACE_morphine {
+				name = "ACE_morphine";
 				count = 10;
-            };
-            class _xx_ACE_packingBandage {
-                name = "ACE_packingBandage";
+			};
+			class _xx_ACE_packingBandage {
+				name = "ACE_packingBandage";
 				count = 20;
-            };
-            class _xx_ACE_tourniquet {
-                name = "ACE_tourniquet";
+			};
+			class _xx_ACE_tourniquet {
+				name = "ACE_tourniquet";
 				count = 8;
-            };
-            class _xx_ACE_salineIV {
-                name = "ACE_salineIV";
+			};
+			class _xx_ACE_salineIV {
+				name = "ACE_salineIV";
 				count = 8;
-            };
-            class _xx_ACE_salineIV {
-                name = "ACE_bodyBag";
+			};
+			class _xx_ACE_salineIV {
+				name = "ACE_bodyBag";
 				count = 8;
 			};
 		};
