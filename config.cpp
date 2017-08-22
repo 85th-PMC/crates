@@ -37,6 +37,8 @@ class CfgVehicles
 	class 85th_supply_crate: 85th_dummy_crate
 	{
 		scope=2;
+		ace_cargo_size = 4;
+        	ace_cargo_canLoad = 1;
 		displayName="Supply Box [85th]";
 		class TransportMagazines{
 			class _xx_HandGrenade {
@@ -66,6 +68,15 @@ class CfgVehicles
 	class 85th_firstaid_kit: 85th_dummy_crate
 	{
 		scope=2;
+		ace_cargo_size = 1;
+        	ace_cargo_canLoad = 1;
+		ace_dragging_canDrag = 1;  // Can be dragged (0-no, 1-yes)
+        	ace_dragging_dragPosition[] = {0, 2, 0};  // Offset of the model from the body while dragging (same as attachTo)
+        	ace_dragging_dragDirection = 0;  // Model direction while dragging (same as setDir after attachTo)
+		ace_dragging_canCarry = 1;  // Can be carried (0-no, 1-yes)
+        	ace_dragging_carryPosition[] = {0, 2, 0};  // Offset of the model from the body while dragging (same as attachTo)
+        	ace_dragging_carryDirection = 0;  // Model direction while dragging (same as setDir after attachTo)
+    };
 		displayName="FirstAid Kit [85th]";
 		model = "\A3\Structures_F_Heli\Items\Luggage\PlasticCase_01_medium_F.p3d";
 		hiddenSelections[]=
@@ -110,6 +121,14 @@ class CfgVehicles
 	class 85th_demolitions_kit: 85th_dummy_crate
 	{
 		scope=2;
+		ace_cargo_size = 1;
+        	ace_cargo_canLoad = 1;
+		ace_dragging_canDrag = 1;  // Can be dragged (0-no, 1-yes)
+        	ace_dragging_dragPosition[] = {0, 2, 0};  // Offset of the model from the body while dragging (same as attachTo)
+        	ace_dragging_dragDirection = 0;  // Model direction while dragging (same as setDir after attachTo)
+		ace_dragging_canCarry = 1;  // Can be carried (0-no, 1-yes)
+        	ace_dragging_carryPosition[] = {0, 2, 0};  // Offset of the model from the body while dragging (same as attachTo)
+        	ace_dragging_carryDirection = 0;  // Model direction while dragging (same as setDir after attachTo)
 		displayName="Demolitions Kit [85th]";
 		model = "\A3\Weapons_F\Ammoboxes\Proxy_UsBasicExplosives.p3d";
 		class TransportMagazines{
