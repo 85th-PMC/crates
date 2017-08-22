@@ -118,22 +118,18 @@ class 85th_demolitions_kit: 85th_dummy_crate
 				magazine = "DemoCharge_Remote_Mag";
 				count = 4;
 			};
-		};
 			class _xx_SLAMDirectionalMine_Wire_Mag {
 				magazine = "SLAMDirectionalMine_Wire_Mag";
 				count = 2;
 			};
-		};
 			class _xx_APERSTripMine_Wire_Mag {
 				magazine = "APERSTripMine_Wire_Mag";
 				count = 4;
 			};
-		};
 			class _xx_Claymore_F {
 				magazine = "Claymore_F";
 				count = 2;
 			};
-		};
 		class TransportWeapons{
 			class _xx_ACE_VMM3 {
 				weapon = "ACE_VMM3";
@@ -145,7 +141,6 @@ class 85th_demolitions_kit: 85th_dummy_crate
 				name = "ACE_DefusalKit";
 				count = 1;
 			};
-		};
 			class _xx_ACE_M26_Clacker {
 				name = "ACE_M26_Clacker";
 				count = 1;
