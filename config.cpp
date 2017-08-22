@@ -18,7 +18,7 @@ class CfgPatches
 class CfgVehicles
 {
 	class B_supplyCrate_F;
-	class 45KO2_supply_crate: B_supplyCrate_F
+	class 85th_supply_crate: B_supplyCrate_F
 	{
 		scope=2;
 		displayName="Supply Box [85th]";
