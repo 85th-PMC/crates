@@ -68,6 +68,14 @@ class CfgVehicles
 		scope=2;
 		displayName="FirstAid Kit [85th]";
 		model = "\A3\Structures_F_Heli\Items\Luggage\PlasticCase_01_medium_F.p3d";
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\crate\data\medicalCase_CO.paa"
+		};
 		class TransportItems{
 			class _xx_ACE_elasticBandage {
 				name = "ACE_elasticBandage";
