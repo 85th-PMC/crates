@@ -130,6 +130,7 @@ class 85th_demolitions_kit: 85th_dummy_crate
 				magazine = "Claymore_F";
 				count = 2;
 			};
+		};
 		class TransportWeapons{
 			class _xx_ACE_VMM3 {
 				weapon = "ACE_VMM3";
