@@ -37,6 +37,7 @@ class CfgVehicles
 	class 85th_supply_crate: 85th_dummy_crate
 	{
 		scope=2;
+		curatorScope=2;
 		ace_cargo_size = 4;
         	ace_cargo_canLoad = 1;
 		ace_dragging_canDrag = 1;  // Can be dragged (0-no, 1-yes)
@@ -74,6 +75,7 @@ class CfgVehicles
 	class 85th_firstaid_kit: 85th_dummy_crate
 	{
 		scope=2;
+		curatorScope=2;
 		ace_cargo_size = 1;
         	ace_cargo_canLoad = 1;
 		ace_dragging_canDrag = 1;  // Can be dragged (0-no, 1-yes)
@@ -126,6 +128,7 @@ class CfgVehicles
 	class 85th_demolitions_kit: 85th_dummy_crate
 	{
 		scope=2;
+		curatorScope=2;
 		ace_cargo_size = 1;
         	ace_cargo_canLoad = 1;
 		ace_dragging_canDrag = 1;  // Can be dragged (0-no, 1-yes)
