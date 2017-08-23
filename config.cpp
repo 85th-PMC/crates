@@ -151,6 +151,10 @@ class CfgVehicles
 			};
 			class _xx_Claymore_F {
 				magazine = "ClaymoreDirectionalMine_Remote_Mag";
+				count = 4;
+			};
+			class _xx_SatchelCharge_Remote_Mag {
+				magazine = "SatchelCharge_Remote_Mag";
 				count = 2;
 			};
 		};
