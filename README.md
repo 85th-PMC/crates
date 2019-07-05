@@ -37,4 +37,4 @@ This site was built using [GitHub Pages](https://pages.github.com/).
 - [ ] Open a pull request
 - [ ] \(Optional) Open a followup issue
 
-@Snak3doc What do you think about these updates?
+@Snak3Doc What do you think about these updates?
