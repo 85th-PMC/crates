@@ -12,11 +12,16 @@ In the words of Abraham Lincoln:
 
 > Pardon my French
 
+#### The third largest heading
+
 Use `git status` to list all new or modified files that haven't yet been committed.
 
-###### The smallest heading
+
+##### The second smallest heading
 
 This site was built using [GitHub Pages](https://pages.github.com/).
+
+###### The smallest heading
 
 - George Washington
 - John Adams
