@@ -12,10 +12,11 @@ In the words of Abraham Lincoln:
 
 > Pardon my French
 
-#### The third largest heading
+### The third largest heading
 
 Use `git status` to list all new or modified files that haven't yet been committed.
 
+#### The third smallest heading
 
 ##### The second smallest heading
 
