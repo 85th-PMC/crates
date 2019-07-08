@@ -26,6 +26,9 @@ This site was built using [GitHub Pages](https://pages.github.com/).
 
 - George Washington
 	- First
+		- Red
+		- Green
+		- Blue
 	- Second
 	- Third
 - John Adams
